@@ -22,6 +22,9 @@
 - [感想]
 - [tips]
 - [参考記事]
+- React全体像　https://www.uxpin.com/studio/jp/blog-jp/why-use-react-ja/
+- Reactチートシート　https://chott-works.com/tips/ReactCheetSheet
+- 
 
 
 ### おまけ
