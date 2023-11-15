@@ -63,14 +63,21 @@ function App() {
             {todos &&
               todos.map((todo, index) => (
                 <tr key={index}>
-                  <th className="text-left">{todo.text}</th>
-                  <td className="text-right">
+                  <th
+                    className="text-start"
+                    style={{
+                      textDecoration: todo.complete ? "line-through" : "",
+                    }}
+                  >
+                    {todo.text}
+                  </th>
+                  <td className="text-end">
                     <Button
-                      variant="secondary"
+                      variant={todo.complete ? "secondary" : "success"}
                       className="me-2"
                       onClick={() => completetodo(index)}
                     >
-                      完了
+                      {todo.complete ? "完了" : "未完了"}
                     </Button>
                     <Button
                       variant="danger"
