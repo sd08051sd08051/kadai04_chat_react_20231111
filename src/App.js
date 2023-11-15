@@ -10,8 +10,6 @@ import {
   Button,
   Table,
 } from "react-bootstrap";
-// import { Button } from "bootstrap";
-// import { InputGroupText } from "react-bootstrap";
 
 function App() {
   const [value, setValue] = useState("");
@@ -69,14 +67,14 @@ function App() {
                   <td className="text-right">
                     <Button
                       variant="secondary"
-                      className="ml-20"
+                      className="me-2"
                       onClick={() => completetodo(index)}
                     >
                       完了
                     </Button>
                     <Button
                       variant="danger"
-                      className="ml-20"
+                      className="ms-2"
                       onClick={() => removeTodo(index)}
                     >
                       削除
