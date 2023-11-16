@@ -43,7 +43,7 @@ function App() {
   return (
     <div className="App">
       <Container>
-        <h1 className="mt-4">Todo リスト</h1>
+        <h1 className="mt-4">飲み会幹事お助けくん</h1>
         <Form onSubmit={handleSubmit}>
           <InputGroup>
             <FormControl
@@ -52,7 +52,7 @@ function App() {
               onChange={(e) => setValue(e.target.value)}
             />
             <InputGroup.Text addonType="append">
-              <Button type="submit">追加</Button>
+              <Button type="submit">参加者追加</Button>
             </InputGroup.Text>
           </InputGroup>
         </Form>
@@ -77,14 +77,14 @@ function App() {
                       className="me-2"
                       onClick={() => completetodo(index)}
                     >
-                      {todo.complete ? "完了" : "未完了"}
+                      {todo.complete ? "支払い済み" : "出席確認"}
                     </Button>
                     <Button
                       variant="danger"
                       className="ms-2"
                       onClick={() => removeTodo(index)}
                     >
-                      削除
+                      消去
                     </Button>
                   </td>
                 </tr>
