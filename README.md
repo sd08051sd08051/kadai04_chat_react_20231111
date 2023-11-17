@@ -11,6 +11,7 @@
 https://react-firebase-hosting-6ccdb.web.app
 
 ## ④工夫した点・こだわった点
+-Reactの開発環境構築やコードの書き方が慣れずコード書き始める以前の問題があった笑
 -Reactの構造やメリットを感じれる第一歩
 -BootStrapを使ってシンプルで誰でも違和感ない見た目にした
 -The シンプル
