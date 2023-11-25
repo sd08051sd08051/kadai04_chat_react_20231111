@@ -77,7 +77,7 @@ function App() {
                       className="me-2"
                       onClick={() => completetodo(index)}
                     >
-                      {todo.complete ? "支払い済み" : "出席確認"}
+                      {todo.complete ? "支払い済み" : "支払い"}
                     </Button>
                     <Button
                       variant="danger"
